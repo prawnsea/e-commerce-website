@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: var(--background) !important;
+  background-color: var(--background);
 }
 @media (max-width: 992px) {
   #navbarNav .navbar-nav {
@@ -55,4 +55,55 @@ input:focus{
 }
 .offcanvas{
     background-color: var(--background) !important;
+}
+
+/* main */
+.card{
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+
+}
+
+.card{
+    border-radius: 30px;
+}
+.card-img-top{
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.card-body{
+    padding: 25px;
+    margin-top: -15px;
+
+
+}
+.custom-link{
+    text-decoration: none !important;
+    color: black;
+
+}
+
+.card-title:hover{
+    color: black;
+
+}
+.btn-secondary{
+    border-radius: 50px;
+}
+.btn-secondary:hover{
+    background-color: black;
+
+}
+
+.custom-link{
+    font-size: 1rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+.card-text{
+    font-size: 1rem;
+}
+.custom-btn{
+    font-size: 1rem;
 }
