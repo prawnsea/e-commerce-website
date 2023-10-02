@@ -1,0 +1,58 @@
+:root {
+  --background: #f0f0f0;
+  --nav-bar: #fefeff;
+
+}
+
+body {
+  background-color: var(--background) !important;
+}
+@media (max-width: 992px) {
+  #navbarNav .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+/* nav bar styles */
+.navbar{
+    position: relative;
+}
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.custom-navbar {
+  height: 80px;
+  background-color: white !important;
+}
+.custom-brand{
+    font-family: "Fuggles", cursive;
+  font-size: 3.5rem;
+  font-style: bold;
+  font-weight: bolder;
+
+}
+.custom-title {
+  font-family: "Fuggles", cursive;
+  font-size: 2.5rem;
+  font-style: bold;
+  font-weight: bolder;
+}
+
+
+input:focus{
+    box-shadow: none !important;
+    outline: 2px solid black !important;
+}
+.navbar-toggler{
+    border: none !important;
+}
+.navbar-toggler:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+.offcanvas{
+    background-color: var(--background) !important;
+}
